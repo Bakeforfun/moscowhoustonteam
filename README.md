@@ -81,10 +81,9 @@ Moscow-Houston Data Science Collaboration
   . initialisation-brian.sh
   ```
 10. This script install *Anaconda* package, C++ compiler, *xgboost* package, compiles it and configures *jupyter* server access. You will be prompted to generate a password for jupyter server accesss and enter some information (which is not necessary).
-11. It is better to run the server in a *tmux* session to keep the server running after user logout. If there is no error, you can access the notebook server at `https://<your-instance-public-ip>:8888`:
-  ```
-  tmux new -s nb
-  cd ~/moscowhoustonteam
-  jupyter notebook
-  ```
-12. You can now go to `https://35.156.177.54:8888' (your IP will be different, just an example) and a jupyter notebook will appear running on the server. You will be asked to enter you jupyter password.
+11. It is better to run the server in a *tmux* session to keep the server running after user logout. If there is no error, you can access the notebook server at `https://<your-instance-public-ip>:8888`. Jupyter notebook will appear running on the server. You will be asked to enter you jupyter password:
+```
+tmux new -s nb
+cd ~/moscowhoustonteam
+jupyter notebook
+```
