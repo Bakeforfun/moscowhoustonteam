@@ -53,7 +53,7 @@ Moscow-Houston Data Science Collaboration
   * Scroll down and find the line `PasswordAuthentication no`. Change it to `PasswordAuthentication yes`
   * Save and exit. Restart the SSH:
   ```
-  sudo restart ssh
+  sudo service ssh restart
   ```
   * You can now connect to your server just by typing and entering the password:
   ```
